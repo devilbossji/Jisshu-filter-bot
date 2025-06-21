@@ -17,7 +17,7 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27681693'))
 API_HASH = environ.get('API_HASH', '8df269aa8db82133d3feca8e2bb0933d')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
-PORT = environ.get('PORT', '8082')
+PORT = environ.get('PORT', '8080')
 
 # Owners 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7840839334').split()]
